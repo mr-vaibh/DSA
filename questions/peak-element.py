@@ -7,3 +7,4 @@ for i in range(1, len(arr)):
         p1 = i
 
 print(p1)
+# O(N)
