@@ -9,3 +9,4 @@ for x in arr:
         maximum = x
 
 print(maximum, minimum)
+# O(N)
