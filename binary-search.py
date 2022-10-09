@@ -37,7 +37,7 @@ def binary_search_recursive(array, number, left_index=None, right_index=None):
     elif mid_number > number:
         right_index = mid_index - 1
 
-    return binary_search_recursive(left_index=left_index, right_index=right_index)
+    return binary_search_recursive(array, number, left_index=left_index, right_index=right_index)
     
 
 print(binary_search(numbers, 38))
