@@ -1,3 +1,5 @@
+# this merge sort do not return, rather it changes the existing array
+
 def merge_two(left, right, array):
     p1 = p2 = k = 0
 
