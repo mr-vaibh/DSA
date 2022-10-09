@@ -2,6 +2,8 @@ def merge_two(arr1, arr2):
     sorted_arr = []
     p1 = p2 = 0
 
+    # start a pointer and compare the arrays
+    # in order to sort them
     while p1 < len(arr1) and p2 < len(arr2):
         if arr1[p1] <= arr2[p2]:
             sorted_arr.append(arr1[p1])
@@ -10,6 +12,9 @@ def merge_two(arr1, arr2):
             sorted_arr.append(arr2[p2])
             p2 += 1
     
+    # iterating once more through both arrays
+    # for just in case few elements are missed
+    # due to different array length
     while p1 < len(arr1):
         sorted_arr.append(arr1[p1])
         p1 += 1
